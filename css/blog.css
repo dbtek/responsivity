@@ -1,0 +1,34 @@
+.navbar {
+    background: #8e44ad;
+}
+
+.navbar a:not(.active) {
+    color: white !important;
+}
+
+.navbar li.active a, .navbar li a:hover, .navbar li.open a.dropdown-toggle {
+    background: #9b59b6 !important;
+}
+
+.navbar .dropdown-menu {
+    background: #8e44ad;
+}
+
+.navbar .dropdown-menu li:hover {
+    background: #9b59b6 !important;
+}
+
+header {
+    margin-top: 60%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h3, .footer a {
+    color: #8e44ad;
+}
