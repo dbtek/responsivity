@@ -1,0 +1,90 @@
+body {
+	background: #2980B9;
+}
+
+.content {
+	background: #ECF0F1;
+	min-height: 600px;
+	padding-top: 20px;
+}
+
+.content .breadcrumb {
+	border: 1px dotted #2980B9;
+}
+
+.sidebar {
+	padding: 0;
+}
+
+.sidebar-nav .sidebar-brand a {
+	font-size: 18px;
+	height: 60px;
+	padding: 20px 10px 20px;
+	background: none !important;
+	color: white !important;
+	text-decoration: none;
+}
+
+.sidebar-nav li {
+	clear: both;
+	font-size: 12px;
+}
+
+.sidebar-nav li a {
+	display: block;
+	height: 40px;
+	padding: 10px 20px 10px;
+	margin: 1px 0 1px;
+	background: #51a0d1;
+	color: white;
+}
+
+.sidebar-nav li a:hover, .sidebar-nav li.active a {
+	background: #ECF0F1;
+	color: #2980B9;
+}
+
+.sidebar-nav li a span {
+	display: inline;
+	float: left;
+}
+
+.sidebar-nav li a .glyphicon {
+	font-size: 14px;
+}
+
+.sidebar-nav li a .sidebar-label {
+	margin-left: 10px;
+}
+
+.footer {
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	background: #ECF0F1;
+	border-top: 1px dotted #2980b9;
+	margin: 0;
+}
+
+/* Bootstrap Overrides */
+
+.navbar {
+    background: #2c3e50;
+    margin-bottom: 1px;
+}
+
+.navbar a:not(.active) {
+    color: white !important;
+}
+
+.navbar li.active a, .navbar li a:hover, .navbar li.open a.dropdown-toggle {
+    background: #2980b9 !important;
+}
+
+.navbar .dropdown-menu {
+    background: #2c3e50;
+}
+
+.navbar .dropdown-menu li:hover {
+    background: #2980b9 !important;
+}
