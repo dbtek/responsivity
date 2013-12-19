@@ -69,8 +69,9 @@ body {
 /* Bootstrap Overrides */
 
 .navbar {
-    background: #2c3e50;
+    background: #2980B9;
     margin-bottom: 1px;
+    border: none;
 }
 
 .navbar a:not(.active) {
@@ -78,13 +79,13 @@ body {
 }
 
 .navbar li.active a, .navbar li a:hover, .navbar li.open a.dropdown-toggle {
-    background: #2980b9 !important;
+    background: #51a0d1 !important;
 }
 
 .navbar .dropdown-menu {
-    background: #2c3e50;
+    background: #2980B9;
 }
 
 .navbar .dropdown-menu li:hover {
-    background: #2980b9 !important;
+    background: #51a0d1 !important;
 }
