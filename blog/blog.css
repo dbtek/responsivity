@@ -34,3 +34,17 @@
 .navbar .dropdown-menu li:hover {
     background: #9b59b6 !important;
 }
+
+.avatar {
+    font-size: 98px;
+    background-color: #8e44ad;
+    color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.navbar .avatar {
+    font-size: 26px;
+    background-color: #fff;
+    color: #9e54bd;
+}
